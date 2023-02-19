@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        ILeetCodeExecute solution = new _1614_MaximumNestingDepthoftheParentheses();
+        ILeetCodeExecute solution = new _226_InvertBinaryTree();
 
         solution.Execute();
     }
