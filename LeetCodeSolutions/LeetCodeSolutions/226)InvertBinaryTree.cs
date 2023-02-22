@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using static LeetCodeSolutions._783_MinimumDistanceBetweenBSTNodes;
-
-namespace LeetCodeSolutions
+﻿namespace LeetCodeSolutions
 {
     internal class _226_InvertBinaryTree : ILeetCodeExecute
     {

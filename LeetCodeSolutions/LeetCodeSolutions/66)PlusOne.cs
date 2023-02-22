@@ -5,12 +5,31 @@
 
         public int[] PlusOne(int[] digits)
         {
-            throw new NotImplementedException();
+            
+            for (int i = digits.Length - 1; i >= 0; i-- )
+            {
+                digits[i]++;
+                if (digits[i] > 9)
+                {
+                    digits[i] = 0;
+                    continue;
+                }
+                break;
+            }
+
+            if (digits[0] == 0) 
+            {
+                digits = new int[digits.Length + 1];
+                digits[0] = 1;
+                return digits;
+            } 
+            return digits;
         }
 
         public void Execute()
         {
-            throw new NotImplementedException();
+            var numbers = new int[]{9};
+            PlusOne(numbers);
         }
     }
 }
