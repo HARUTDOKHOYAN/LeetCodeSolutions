@@ -13,7 +13,7 @@
             else if (a.Length < b.Length)
             {
                 int dif = b.Length - a.Length;
-                for (int i = 0; i < dif ++)
+                for (int i = 0; i < dif ++;)
                     a = '0' + a;
             }
             return BinaryCalc(b, a);
