@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        ILeetCodeExecute solution = new _724_FindPivotIndex();
+        var solution = new N142LinkedListCycleII();
 
         solution.Execute();
     }

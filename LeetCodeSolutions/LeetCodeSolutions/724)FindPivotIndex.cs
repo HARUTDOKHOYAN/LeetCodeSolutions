@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCodeSolutions
 {
-    public class _724_FindPivotIndex : ILeetCodeExecute
+    public class N724_FindPivotIndex : ILeetCodeExecute
     {
         public int PivotIndex(int[] nums)
         {
