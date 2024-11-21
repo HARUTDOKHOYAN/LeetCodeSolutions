@@ -5,7 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var solution = new N80_Remove_Duplicates_from_Sorted_Array_II();
+        var solution = new N189_Rotate_Array();
         (solution as ILeetCodeRun).Run();
     }
 }
